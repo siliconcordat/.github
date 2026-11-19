@@ -31,7 +31,7 @@ Five Hard Vetoes bind every repository:
 1. **No opaque deltas.** Every Plane 2 weight artifact must be re-derivable with zero byte drift from published Plane 1 inputs using a public, deterministic compiler.
 2. **No automatic resolution of contested rules.** Conflicting preferences or overlapping style norms halt compilation or mounting and escalate to the owner.
 3. **No closed-weight injection.** Plane 2 runs only on self-hosted open-weights runtimes that enforce load-time verification, expose an instant off switch, and emit a human-readable audit record. Closed API models stay strictly on Tier 1 text retrieval and Tier 2 broker checks.
-4. **No premature protocol standardization.** New MCP metadata stays inside vendor-namespaced `_meta` (`gg.moissanite/splice`, `gg.moissanite/mde`) until external adopters exercise it.
+4. **No premature protocol standardization.** New MCP metadata stays inside vendor-namespaced `_meta` (`gg.siliconcordat/mde`) until external adopters exercise it.
 5. **Plane 1 is where the person lives.** Models and agents are guests. Any edit to a compiled Plane 1 document marks derived weight caches stale automatically (`stale_lineage`) and unloads them until recompiled.
 
 ## 3. Class 1 vs Class 2 Rule for Hard Veto 1
@@ -120,7 +120,7 @@ No component graduates without clearing concrete falsifiable tests:
   - `T-C3`: Base capability retention within `<= 1.5 pp` of bare `W0` across 100 private coding/math/refusal holdouts, beating naive unweighted summation.
   - `T-C4`: Order-invariant CPU `float64` composition and exact `O(1)` per-slot rollback.
   - `T-C5`: `<= 15%` tok/s latency overhead and `>= 8k` KV cache headroom (`<= 7.2 GiB` VRAM on the 8 GiB compute laptop).
-- **Kill rule:** If a compiled adapter fails its pass mark without exceeding the retention loss floor, publish the negative result honestly and keep those rules in Plane 1 condensed retrieval plus Tier 2 broker gates.
+- **Kill rule:** If a compiled adapter fails to reach its pass mark within the retention loss floor, publish the negative result honestly and keep those rules in Plane 1 condensed retrieval plus Tier 2 broker gates.
 
 ## 8. Cross-Org Team Collaboration Rules
 
