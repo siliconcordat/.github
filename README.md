@@ -1,0 +1,14 @@
+# Siliconcordat Organization Hub
+
+This repository holds the public organization profile, unified master plan, collaboration guide, and live build tracker for Siliconcordat.
+
+## Key Documents
+
+- [Organization Profile](profile/README.md): plain-language overview of the five-layer stack, trust firewall, and active repositories.
+- [Master Plan](MASTER-PLAN.md): full architecture, three-machine topology, composable domain packs, verification gates, and rollout milestones.
+- [Contributing Guide](CONTRIBUTING.md): cross-team collaboration rules, prose and privacy checks, review lanes, and verification gates.
+- [Live Status](STATUS.md): current commits, planning issues, and independent verification state across all repositories.
+
+## License
+
+Code is licensed under Apache-2.0. Documentation is licensed under CC BY 4.0.
