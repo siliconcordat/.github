@@ -11,6 +11,7 @@ This repository holds the public organization profile, unified master plan, coll
 - [Wave 1 to 4 Update](UPDATES/2026-11-19-wave1-4-update.md): verified stack summary, empirical proofs and dead ends, external readiness tiers, and concrete next steps.
 - [Outreach Playbook](OUTREACH-PLAYBOOK.md): verified Tier A, Tier B, and Tier C publish/outreach sequence, credibility guardrails, owner decision checklist, and layer execution issue router.
 - [Formal Verification MDE POC](https://github.com/siliconcordat/mde/issues/4): canonical end-to-end initiation blueprint for the first Model-Domain-Engine proof of concept.
+- [Adaptive Warp ML Workbench OS POC](https://github.com/siliconcordat/warp/issues/4): canonical end-to-end blueprint for the adaptive Linux ML workbench OS on UX582HS (RTX 3080).
 
 ## License
 

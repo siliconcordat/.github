@@ -4,18 +4,20 @@ This playbook routes any contributor or agent from verified Wave 1 to 4 artifact
 
 Background context lives in [Master Plan (v0.1)](https://github.com/siliconcordat/.github/issues/1) and the [Wave 1 to 4 Comprehensive Update](https://github.com/siliconcordat/.github/issues/2) (`175/175` passing tests across all six public repositories).
 
-## 1. Flagship POC and Layer Execution Issue Router
+## 1. Flagship POCs and Layer Execution Issue Router
 
-- **Canonical First MDE Proof of Concept:** All Formal Verification MDE implementation work starts from `siliconcordat/mde` Issue 4 (linked in row 1 below, run `gh issue view 4 --repo siliconcordat/mde`). A fresh agent pointed solely at that issue receives the full verified baseline, linked Plane 1 specs, deterministic oracle commands, 240-prompt schema, and pass/kill gates.
+- **Canonical First MDE Proof of Concept:** All Formal Verification MDE implementation work starts from `siliconcordat/mde` Issue 4 (row 1 below, run `gh issue view 4 --repo siliconcordat/mde`). A fresh agent pointed solely at that issue gets the verified baseline, linked Plane 1 specs, deterministic oracle commands, 240-prompt schema, and pass/kill gates.
+- **Canonical First Adaptive Warp OS Proof of Concept:** All Linux ML experimentation workbench OS work for UX582HS (RTX 3080) starts from `siliconcordat/warp` Issue 4 (row 2 below, run `gh issue view 4 --repo siliconcordat/warp`). A fresh agent pointed solely at that issue gets the 3-ring adaptive template architecture, UX582HS budgets, QEMU-first build phases, and pass/kill gates.
 
 Every layer also owns a self-contained, agent-executable brief holding exact commands, pass/kill gates, and exact-byte external drafts marked `DRAFT: requires owner verbatim approval`.
 
 | Layer | Repository | Execution Issue | Agent Command | Scope and Owner Gate |
 | --- | --- | --- | --- | --- |
 | L5 POC | [siliconcordat/mde](https://github.com/siliconcordat/mde) | [POC: Build the Formal Verification MDE (End-to-End Blueprint)](https://github.com/siliconcordat/mde/issues/4) | `gh issue view 4 --repo siliconcordat/mde` | Canonical end-to-end blueprint for the first real MDE (`needs decision`) |
+| L3 POC | [siliconcordat/warp](https://github.com/siliconcordat/warp) | [POC: Adaptive Warp ML Experimentation Workbench OS (UX582HS / RTX 3080)](https://github.com/siliconcordat/warp/issues/4) | `gh issue view 4 --repo siliconcordat/warp` | Canonical 3-ring adaptive OS workbench blueprint for UX582HS / RTX 3080 (`needs decision`) |
 | L5 Release | `siliconcordat/mde` | [Release v0.1.0, MCP community draft, and v0.2 engineering brief](https://github.com/siliconcordat/mde/issues/3) | `gh issue view 3 --repo siliconcordat/mde` | `v0.1.0` Rust tag checklist, MCP community draft (`needs decision`), v0.2 LSP/DAP and 30-task benchmark |
 | L4 Harness | [siliconcordat/exo](https://github.com/siliconcordat/exo) | [Next milestones: 30-task splice benchmark, Paper 2 live composition, and external harness interop](https://github.com/siliconcordat/exo/issues/3) | `gh issue view 3 --repo siliconcordat/exo` | Offline 30-task `mde` + `exo` benchmark, Paper 2 live 4-layer composition, external harness interop (`needs decision`) |
-| L3 OS | [siliconcordat/warp](https://github.com/siliconcordat/warp) | [Upstream llama.cpp Drafts and Linux QEMU/RTX 3080 Containment Unlock Plan](https://github.com/siliconcordat/warp/issues/3) | `gh issue view 3 --repo siliconcordat/warp` | Upstream `llama.cpp` PR 28707 and erase HTTP `501` drafts (`needs decision`), Linux QEMU/KVM `0/30` containment proof |
+| L3 OS | `siliconcordat/warp` | [Upstream llama.cpp Drafts and Linux QEMU/RTX 3080 Containment Unlock Plan](https://github.com/siliconcordat/warp/issues/3) | `gh issue view 3 --repo siliconcordat/warp` | Upstream `llama.cpp` PR 28707 and erase HTTP `501` drafts (`needs decision`), Linux QEMU/KVM `0/30` containment proof |
 | L2 Model | [siliconcordat/weft](https://github.com/siliconcordat/weft) | [Next steps: Tier B GPU unlock experiments (Papers 1 and 2) and Tier A outreach drafts](https://github.com/siliconcordat/weft/issues/3) | `gh issue view 3 --repo siliconcordat/weft` | RTX 3080 Paper 1 and Paper 2 GPU unlocks, 27B Mac read-only check, `bandr-ai/dawe` and `siliquant` drafts (`needs decision`) |
 | L1 Hardware | [siliconcordat/loom](https://github.com/siliconcordat/loom) | [Action Plan: Latent Lattice Technical Outreach, Tier C Private Refereeing, and L1 Guardrails](https://github.com/siliconcordat/loom/issues/4) | `gh issue view 4 --repo siliconcordat/loom` | Latent Lattice 1-page note draft (`needs decision`), Tier C private math refereeing and Lean Zulip recruitment, L1 hold-back rules |
 
@@ -115,7 +117,7 @@ Every external send below is gated on explicit owner sign-off on exact text insi
 | Days 2 to 4 | Tag `siliconcordat/mde` `v0.1.0`, merge `siliquant` PR 12 + open quantization note, and send engineering note to `bandr-ai/dawe` | `mde` Issue 3, `weft` Issue 3 | Release tag and external drafts approved |
 | Days 4 to 8 | Run RTX 3080 Tier B Unlock 1 (`weft` E4/E5 + loud columns on `Qwen3.5-4B` or `Llama-3.2-3B`) and draft Paper 1 for `BetaEdit`/`AlphaEdit` exchange | `weft` Issue 3 | Zero cloud spend and preprint approval before posting |
 | Days 7 to 11 | Merge `Foundation-0` review PRs and `mission` PR 25, send private packets to Markus Grassl, Arathoon/Ball/Kvalheim, Bartzos et al., and post on Lean Zulip | `loom` Issue 4 | Private refereeing packets approved with zero public hype |
-| Days 10 to 14 | Execute Formal Verification MDE POC (`mde` Issue 4), 160-prompt `clean-writing` + 3-MDE composition, and Linux QEMU `warp` `0/30` test to unlock Papers 2 and 3 | `mde` Issue 4, `weft` Issue 3, `exo` Issue 3, `warp` Issue 3 | Verify kill gates before any Paper 2/3 announcement |
+| Days 10 to 14 | Execute Adaptive Warp OS POC (`warp` Issue 4), Formal Verification MDE POC (`mde` Issue 4), 160-prompt `clean-writing` + 3-MDE composition, and Linux QEMU `0/30` test | `warp` Issue 4, `mde` Issue 4, `weft` Issue 3, `exo` Issue 3, `warp` Issue 3 | Verify kill gates before any Paper 2/3 announcement |
 
 ### Owner Decision Sign-Off
 
@@ -123,4 +125,4 @@ Every external send below is gated on explicit owner sign-off on exact text insi
 - [ ] Approve Tier A 1-page Latent Lattice technical note to Shivam Duggal et al. ahead of code release (`loom` Issue 4).
 - [ ] Approve Tier A `siliconcordat/mde` `v0.1.0` tag and MCP community discussion draft (`mde` Issue 3).
 - [ ] Approve Tier A `Moissanite-Labs/siliquant` PR 12 merge, quantization note, and `bandr-ai/dawe` engineering note (`weft` Issue 3).
-- [ ] Authorize Formal Verification MDE POC (`mde` Issue 4), RTX 3080 / Linux QEMU Tier B unlock runs (`weft` Issue 3, `exo` Issue 3, `warp` Issue 3), and Tier C private refereeing packets (`loom` Issue 4).
+- [ ] Authorize Adaptive Warp OS POC (`warp` Issue 4), Formal Verification MDE POC (`mde` Issue 4), RTX 3080 / Linux QEMU Tier B unlock runs (`weft` Issue 3, `exo` Issue 3, `warp` Issue 3), and Tier C private refereeing packets (`loom` Issue 4).
