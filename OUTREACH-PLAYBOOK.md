@@ -2,7 +2,7 @@
 
 This playbook routes any contributor or agent from verified Wave 1 to 4 artifacts to the exact execution briefs, external outreach drafts, GPU unlock experiments, and math refereeing checklists across Siliconcordat. Every external comment, email, release tag, or public announcement requires explicit owner approval on exact text before sending.
 
-Background context lives in [Master Plan (v0.1)](https://github.com/siliconcordat/.github/issues/1) and the [Wave 1 to 4 Comprehensive Update](https://github.com/siliconcordat/.github/issues/2) (`175/175` passing tests across all six public repositories).
+Background context lives in [Master Plan (v0.1)](https://github.com/siliconcordat/.github/issues/1) and the [Wave 1 to 4 Comprehensive Update](https://github.com/siliconcordat/.github/issues/2) (`174/174` distinct passing tests across all six public repositories).
 
 ## 1. Flagship POCs and Layer Execution Issue Router
 
@@ -29,7 +29,7 @@ All five targets below are live-verified against GitHub API, arXiv, and HTTP end
 
 Target repository: [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) (`tools/server` recent committers `ngxson`, `0x3ddie`, `allozaur`, `james-pre`, `tdakhran`).
 
-- **Reproduce on existing PR instead of duplicating:** Open [PR 28707](https://github.com/ggml-org/llama.cpp/pull/28707) (author `22elix3r`) already covers `--lora-init-without-apply`. Post the concise build `11146` (`0.5.0`) reproduction comment from `warp` Issue 3 (`--lora` starts at `1.0`, while `--lora-scaled <path>:0.0 --lora-init-without-apply` starts at `0.0` with `0.0` diff on [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)).
+- **Reproduce on existing PR instead of duplicating:** Open [PR 28707](https://github.com/ggml-org/llama.cpp/pull/28707) (author `22elix3r`) already covers `--lora-init-without-apply`. Post the concise build `11146` (`0.5.0-dev`) reproduction comment from `warp` Issue 3 (`--lora` starts at `1.0`, while `--lora-scaled <path>:0.0 --lora-init-without-apply` starts at `0.0` with `0.0` diff on [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)).
 - **Open surgical `action=erase` HTTP `501` issue/PR:** No open issue covers `POST /slots/{id}?action=erase` returning HTTP `501` unless `--slot-save-path` is passed, even though memory-only KV erase writes nothing to disk. Draft lives in `warp` Issue 3.
 - **Track related cache-isolation issues:** Follow open [Issue 32048](https://github.com/ggml-org/llama.cpp/issues/32048) (`--cache-ram` not cleared on erase) and [Issue 28194](https://github.com/ggml-org/llama.cpp/issues/28194) (`/slots` restore drops hybrid/recurrent checkpoints), which directly reinforce `warp`'s fail-closed cache isolation flags.
 
@@ -103,7 +103,7 @@ Strict rule: zero social-media or public breakthrough announcements on unreferee
 - **4B to 27B multi-adapter SOP generalization or loud-column `weft` wins:** E4 and E5 ran on `TinyStories-1M` (flat `1.21x` to `1.41x` column norms), and [weft E6](https://github.com/siliconcordat/weft/blob/main/experiments/e6_live_llama_server_lora.py) used seeded synthetic residuals to test `llama.cpp` linear algebra. Hold until Tier B Unlocks 1 and 2 pass.
 - **Real-checkpoint Latent Lattice MDE benchmarks:** E7 runs on a 4-layer synthetic Lattice Transformer and `arXiv:2611.21608v1` has no open weights yet. Frame `docs/07` and E7 strictly as architectural analysis and synthetic proofs.
 - **L1 `loom` silicon or FPGA speedups:** Theses 1 to 4 and 3b ([04-loom-hardware-physics.md](https://github.com/siliconcordat/loom/blob/main/docs/04-loom-hardware-physics.md)) are analytical rooflines and software-before-silicon falsifiers, not taped-out hardware measurements.
-- **Bare-metal Linux `warp` sandbox security acceptance:** Current live runs tested macOS CPU `llama-server 0.5.0` plus static `mkosi` checks. Hold OS containment claims until Linux QEMU/KVM runs pass.
+- **Bare-metal Linux `warp` sandbox security acceptance:** Current live runs tested macOS CPU `llama-server 0.5.0-dev` plus static `mkosi` checks. Hold OS containment claims until Linux QEMU/KVM runs pass.
 - **Unrefereed `Foundation-0` or [Foundation-0/silic0n](https://github.com/Foundation-0/silic0n/issues) math and circuit claims:** Hold all public announcements until Tier C domain refereeing completes.
 - **Nonexistent or private references:** Never cite `github.com/huggingface/harness-hub` (verified HTTP `404`), private repositories, internal seat identifiers, or local machine paths.
 
